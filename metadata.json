@@ -1,0 +1,5 @@
+{
+  "name": "Parsent",
+  "description": "Futuristic Omni-Channel Sentiment Auditor. Automatically gathers data from across the web (Reddit, X, Reports) and generates immersive, neon-infused sentiment reports.",
+  "requestFramePermissions": []
+}
