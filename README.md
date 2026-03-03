@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://via.placeholder.com/150x150.png?text=Parsent+Logo" alt="Parsent Logo" width="120" />
+  <img src="./assets/logo.jpg" alt="Parsent Logo" width="150" style="border-radius: 20px; box-shadow: 0 0 20px rgba(153, 255, 102, 0.2);" />
 
   <h1>📊 Parsent</h1>
   
@@ -9,9 +9,9 @@
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/Status-In%20Development-blueviolet?style=for-the-badge" alt="Status" />
-    <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" alt="License" />
-    <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" alt="PRs Welcome" />
+    <img src="https://img.shields.io/badge/Status-In%20Development-99ff66?style=for-the-badge&logoColor=black" alt="Status" />
+    <img src="https://img.shields.io/badge/License-MIT-99ff66?style=for-the-badge&logoColor=black" alt="License" />
+    <img src="https://img.shields.io/badge/PRs-Welcome-99ff66?style=for-the-badge&logoColor=black" alt="PRs Welcome" />
   </p>
 
   <p>
@@ -28,7 +28,7 @@
 <div align="center">
   
   ### 🚀 See it in Action
-  <img src="https://via.placeholder.com/800x450.png?text=[Drop+Your+Animated+UI+GIF+Here]" alt="Parsent Animated Demo" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  <img src="https://via.placeholder.com/800x450.png?text=[Drop+Your+Animated+UI+GIF+Here]" alt="Parsent Animated Demo" width="100%" style="border-radius: 10px; border: 1px solid #333;" />
 
 </div>
 
@@ -40,9 +40,9 @@ Instead of jarring page reloads, Parsent utilizes **skeleton morphing**, **stagg
 
 ## :art: Micro-Interactions Built-In
 
-- **Morphing Skeletons:** Say goodbye to loading spinners. Data gracefully fades into place once the backend finishes parsing.
-- **Staggered Feed Entrances:** Sentiment cards cascade into the viewport smoothly as you scroll.
-- **Dynamic Chart Rendering:** Pie charts and trend lines animate from zero upon intersection, drawing the user's eye to the data that matters.
+* **Morphing Skeletons:** Say goodbye to loading spinners. Data gracefully fades into place once the backend finishes parsing.
+* **Staggered Feed Entrances:** Sentiment cards cascade into the viewport smoothly as you scroll.
+* **Dynamic Chart Rendering:** Pie charts and trend lines animate from zero upon intersection, drawing the user's eye to the data that matters.
 
 ---
 
