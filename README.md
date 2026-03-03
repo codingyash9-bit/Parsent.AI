@@ -1,20 +1,86 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+  <img src="https://via.placeholder.com/150x150.png?text=Parsent+Logo" alt="Parsent Logo" width="120" />
+
+  <h1>📊 Parsent</h1>
+  
+  <p>
+    <b>A fluid, high-performance analytics dashboard that parses social data for real-time sentiment analysis.</b>
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/Status-In%20Development-blueviolet?style=for-the-badge" alt="Status" />
+    <img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" alt="License" />
+    <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" alt="PRs Welcome" />
+  </p>
+
+  <p>
+    <a href="#sparkles-features">Features</a> •
+    <a href="#rocket-tech-stack">Tech Stack</a> •
+    <a href="#wrench-installation">Installation</a> •
+    <a href="#handshake-contributing">Contributing</a>
+  </p>
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+<div align="center">
+  
+  ### 🚀 See it in Action
+  <img src="https://via.placeholder.com/800x450.png?text=[Drop+Your+Animated+UI+GIF+Here]" alt="Parsent Animated Demo" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 
-View your app in AI Studio: https://ai.studio/apps/534500f4-9654-4414-aba1-0d63fa8f1017
+</div>
 
-## Run Locally
+## :sparkles: The Experience
 
-**Prerequisites:**  Node.js
+Parsent isn't just a data scraper; it’s built to make heavy data processing feel instantaneous. By pulling real-time threads from **Reddit** and **X (Twitter)**, the platform categorizes public sentiment into Positive, Negative, and Neutral visualizations. 
 
+Instead of jarring page reloads, Parsent utilizes **skeleton morphing**, **staggered list animations**, and **fluid tab routing** to provide a seamless, native-app experience right in your browser.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## :art: Micro-Interactions Built-In
+
+- **Morphing Skeletons:** Say goodbye to loading spinners. Data gracefully fades into place once the backend finishes parsing.
+- **Staggered Feed Entrances:** Sentiment cards cascade into the viewport smoothly as you scroll.
+- **Dynamic Chart Rendering:** Pie charts and trend lines animate from zero upon intersection, drawing the user's eye to the data that matters.
+
+---
+
+## :rocket: Tech Stack
+
+We use modern tools to ensure the frontend is as beautiful as the backend is powerful.
+
+### **Frontend**
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue)
+
+### **Backend & Data**
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+
+---
+
+## :wrench: Installation & Setup
+
+Want to run Parsent locally? Follow these steps to get the data flowing.
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/yourusername/parsent.git](https://github.com/yourusername/parsent.git)
+
+# 2. Navigate into the directory
+cd parsent
+
+# 3. Install frontend and backend dependencies
+npm install
+pip install -r requirements.txt
+
+# 4. Set up your environment variables
+cp .env.example .env
+# (Make sure to add your Reddit and X API keys!)
+
+# 5. Spin up the dev server
+npm run dev
